@@ -16,11 +16,11 @@ For sending and recieving packages to and from the servo you will have to wire l
 
 Since, you have to send and recieve, you will have to wire like this:
 
-* Pin 21: VCC LS241N & VCC XL320
-* Pin 22: GND LS241N & GND XL320
-* Pin 23: 1G & 2G LS241N 
-* Pin Tx: 1An LS241N
-* Ṕin Rx: 2Yn LS241N
+* Pin 21 -> VCC LS241N & VCC XL320
+* Pin 22 -> GND LS241N & GND XL320
+* Pin 23 -> 1G & 2G LS241N 
+* Pin Tx -> 1An LS241N
+* Ṕin Rx -> 2Yn LS241N
 
 The Pin Tx/Rx can be found on the upper part of the LaunchPad, unfortunately has no pins soldered so you will have to solder them, and you must have the DATA pin of the XL320 wired to nothing, so what you have to do is:
 
@@ -30,9 +30,9 @@ The Pin 23 of the TM4C123G can be switched by any other pin that has digital out
 
 If you don't mind on recieving the packages then you just have to wire like this:
 
-* Pin 22: GND XL320
-* Pin 21: VCC XL320
-* Pin Tx: DATA XL320
+* Pin 22 -> GND XL320
+* Pin 21 -> VCC XL320
+* Pin Tx -> DATA XL320
 
 ### Installation
 
